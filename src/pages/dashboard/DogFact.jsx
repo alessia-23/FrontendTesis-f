@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 export const DogFact = () => {
+    
     const [factEn, setFactEn] = useState("");
     const [factEs, setFactEs] = useState("");
     const [loading, setLoading] = useState(true);

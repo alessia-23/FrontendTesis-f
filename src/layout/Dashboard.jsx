@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router";
 import { useFetch } from "../hooks/useFetch";
 import { Heart } from "lucide-react";
-import { DogFact } from "../pages/dashboard/DogFact.JSX";
+import { DogFact } from "../pages/dashboard/DogFact";
 import { AvatarStyles } from "../pages/dashboard/Avatar";
 
 export const Dashboard = () => {
